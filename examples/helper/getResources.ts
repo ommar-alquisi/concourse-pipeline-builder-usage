@@ -1,4 +1,4 @@
-import { GetStep } from "concourse-pipeline-builder/dist/Pipeline";
+import { GetStep } from "concourse-pipeline-builder";
 
 const getApp: GetStep = {
   get: "resource-app",
